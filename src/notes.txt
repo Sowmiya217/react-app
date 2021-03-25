@@ -1,0 +1,20 @@
+// lifecycle methods
+//  mounting -
+//     constructor
+//     static getDerivedStateFromProps(props,state)
+//     render
+//     componentDidMount
+
+//  updating -
+//     getDerivedStateFromProps
+//     shouldComponentUpdate
+//     render
+//     getSnapshotBeforeUpdate
+//     componentDidUpdate
+
+//  unmounting -
+//     componentWillUnmount
+
+//  error handling - Error boundary
+//     static getDerivedStateFromProps()
+//     componentDidCatch
