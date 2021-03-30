@@ -4,7 +4,7 @@ const ContextA = React.createContext()
 
 export const CompA  = () =>{
     return (
-        <ContextA.Provider value={"Test string"}>
+        <ContextA.Provider value={"Test string value"}>
             <CompB />
         </ContextA.Provider>
     )
