@@ -2,6 +2,21 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Setup
+
+- Fork the main repo to your profile.
+- Clone your fork with `git clone git@github.com/Sowmiya217/react-app.git`. or use GitHub CLI command `gh repo clone Sowmiya217/react-app`
+- `yarn install` to install dependencies.
+- `git remote add upstream git@github.com/Sowmiya217/react-app.git` to configure the upstream repo.
+
+## Development Workflow
+
+- `git checkout -b new-branch`
+- Do some work. Commit some stuff.
+- `git rebase upstream/main` to make sure you have the latest code from main.
+- Resolve conflicts if necessary.
+- `git push origin new-branch` to push your branch up and open a PR.
+
 ## Available Scripts
 
 In the project directory, you can run:
