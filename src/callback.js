@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 // Hooks intro - https://reactjs.org/docs/hooks-intro.html
 
 export function Child(props) {

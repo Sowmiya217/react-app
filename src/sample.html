@@ -1,0 +1,132 @@
+<html lang="en">
+  <!--  lang = help screen reading technology determine the proper language to announce -->
+  
+  <head>
+  <!-- holds metadata of web page -->
+    <title>My first web page</title>
+    <meta charset="utf-8" />
+  </head>
+  
+  <body>
+    <header>
+      <h2>My first blog!</h2>
+    </header>
+    
+    <main>
+      <p>This is the very first blog that I'm writing.</p>
+            
+      <div>
+        <h3>Table of contents</h3>
+        <ol>
+          <li>Introduction</li>
+          <li>Experience</li>
+          <li>Conclusion</li>
+        </ol>
+      </div>
+      
+      <div>
+        <h3>Introduction</h3>
+        <p>
+          This is blog about basics of HTML
+        </p>
+        <span>
+          Sample link : 
+          <a href="https://www.google.com/intl/en-GB/gmail/about/#" target="_blank">Go to gmail</a>
+        </span>
+        <span>
+          Want to contribute?
+          <a href="#contribute">Click me</a>
+        </span>
+      </div>
+      
+      <div>
+        <h3>Experience</h3>
+        <div>
+          <p>Let's talk a little about html elements here</p>
+          <h4> Mostly used elements </h4>
+          <ul>
+            <li>body</li>
+            <li>div</li>
+            <li>p</li>
+            <li>a</li>
+            <li>span</li>
+            <li>h2</li>
+            <li>ol- ordered list </li>
+            <li>ul- unordered list</li>
+            <li>li - items of list</li>
+            <li>form</li>
+            <li>input</li>
+            <li>button</li>
+            <li>select</li>
+            <li>options</li>
+          </ul>
+        </div>
+        <img src="https://www.gstatic.com/webp/gallery/1.jpg" alt="No image available" width="110"/>
+      </div>
+      <br />
+      <p>
+       Let's create a sample form!
+      </p>
+      <form action="">
+        <div>
+          <label for="name">Enter your name: </label>
+          <input type="text" name="name" id="name" required>
+        </div>
+        <div>
+          <label for="email">Enter your email: </label>
+          <input type="email" name="email" id="email" required>
+        </div>
+        <div>
+          <input type="submit" value="Subscribe!">
+          <button type="reset" disabled>
+            Cancel
+          </button>
+        </div>
+        <fieldset>
+          <legend>Choose a color</legend>
+          <input type="radio" name="radio"><label> Black</label>
+          <label><input type="radio" name="radio"> Blue</label>
+          <label><input type="radio" name="radio"> White</label>
+        </fieldset>
+        
+        <label for="animal-select">Choose an animal:</label>
+        <select name="animals" id="animal-select">
+          <option value="">--Please choose an option--</option>
+          <optgroup label="Pet animals">
+            <option value="dog" selected>Dog</option>
+            <option value="cat">Cat</option>
+            <option value="parrot">Parrot</option>
+            <option value="goldfish">Goldfish</option>
+           </optgroup>
+           <optgroup label="Wild animals">
+            <option value="Tiger">Dog</option>
+            <option value="Elephant">Cat</option>
+           </optgroup>
+        </select>
+        
+        <div>
+          <label for="feedback">Provide feedback:</label>
+          <br />
+          <textarea id="feedback" name="feedback" rows="5" cols="33">
+            Write something...
+          </textarea>
+        </div>
+        
+      </form>
+      
+      <br />
+      <div>
+        <h3>Conclusion</h3>
+        <p>
+          Thanks for reading through the blog and hope you've got some info!
+        </p>
+      </div>
+    </main>
+    
+     <hr />
+    <section id="contribute">
+      <h3>Contributions</h3>
+      <p> If you want to contribute to this blog, you are most welcome!</p>
+    </section>
+  </body>
+</html>
