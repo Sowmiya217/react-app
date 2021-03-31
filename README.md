@@ -16,7 +16,7 @@ You will also see any lint errors in the console.
 
 ### `yarn serve`
 
-Start Express web server (check server.js file) and it runs on the port 3002.
+Start Express web server (check server.js file) and it runs on the port 3002. [http://localhost:3002](http://localhost:3002)
 
 Reloading for edits is not automatic; you have manually sto and start the server to reload latest for now.
 
